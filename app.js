@@ -23,7 +23,7 @@ loader.style.display="none"
 async function getQuote() {
 
     loader.style.display="block"
-    const res = await fetch('http://quotes.rest/bible/verse.json');
+    const res = await fetch('https://quotes.rest/bible/verse.json');
 
     const data = await res.json();
 
