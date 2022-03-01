@@ -4,6 +4,7 @@ body{
     background-color:#f3d485;
 }
 
+
 .wrapper{
     display: flex;
     align-items: center;
@@ -60,6 +61,15 @@ body{
     display: flex;
     gap:15px;
     font-size: 20px;
+}
+
+
+.APIattribute{
+  display: flex;
+  left: 50%;
+  right: 50%;
+  justify-content: center;
+  padding: 5px;
 }
  
 
