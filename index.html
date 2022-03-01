@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Verse</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!---------- logo ------------->
+    <div><h1 style="margin-left:20px ; font-family:cursive;">BibleVerse</h1></div>
+
+    <!------ wrapper ------>
+    <div class="wrapper">
+        <div class="container">
+            <!----- Verse Loader ----->
+            <div id="loader"  class="loadingio-spinner-pulse-g6p5sb86uo4"><div class="ldio-m9nvr8xvnvn">
+                <div></div><div></div><div></div>
+                </div></div>
+
+                <!-------- Verse container ------>
+            <div class="quoteShowcase">
+                <div id="verse"></div>
+                <div class="bookNavigation">
+                    <div id="bookName"></div>
+                    <div id="chapterNumber"></div>
+                    <div id="verseNumber"></div>
+                </div>
+            </div>
+
+            <!-------- social icons -------->
+            <div class="social-icons">
+            <a class="whatsapp" href="https://wa.me/?text=urlencodedtext" style="color: black;"><i class="fa-brands fa-whatsapp"></i></a>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=Hello%20world" style="color: black;"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <!------------ New Verse Button ------------>
+        <button id="newQuoteButton">NEW VERSE</button>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+
+</html>
