@@ -22,8 +22,6 @@ loader.style.display="none"
 // function
 async function getQuote() {
 
-
-    // Verse loader on "display: block" right before api call
     loader.style.display="block"
     const res = await fetch('http://quotes.rest/bible/verse.json');
 
