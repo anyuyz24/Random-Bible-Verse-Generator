@@ -14,4 +14,4 @@ BibleVerse is a random Bible verse generator. The web app enables users find ran
 - JavaScript
 
 # Live Demo
-![BibleVerse](https://random-bible-verse-generator.netlify.app/)
+[BibleVerse](https://random-bible-verse-generator.netlify.app/)
